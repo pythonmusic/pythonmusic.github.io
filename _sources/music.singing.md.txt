@@ -1,0 +1,30 @@
+music\.singing package
+======================
+
+Submodules
+----------
+
+music\.singing\.bootstrap module
+--------------------------------
+
+.. automodule:: music.singing.bootstrap
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+music\.singing\.perform module
+------------------------------
+
+.. automodule:: music.singing.perform
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: music.singing
+    :members:
+    :undoc-members:
+    :show-inheritance:

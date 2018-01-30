@@ -1,0 +1,37 @@
+music\.structures package
+=========================
+
+Subpackages
+-----------
+
+.. toctree::
+
+    music.structures.peals
+
+Submodules
+----------
+
+music\.structures\.permutations module
+--------------------------------------
+
+.. automodule:: music.structures.permutations
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+music\.structures\.symmetry module
+----------------------------------
+
+.. automodule:: music.structures.symmetry
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: music.structures
+    :members:
+    :undoc-members:
+    :show-inheritance:

@@ -1,0 +1,17 @@
+music\.legacy package
+=====================
+
+Subpackages
+-----------
+
+.. toctree::
+
+    music.legacy.pieces
+
+Module contents
+---------------
+
+.. automodule:: music.legacy
+    :members:
+    :undoc-members:
+    :show-inheritance:

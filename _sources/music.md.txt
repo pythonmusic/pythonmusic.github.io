@@ -1,0 +1,56 @@
+music package
+=============
+
+Subpackages
+-----------
+
+.. toctree::
+
+    music.core
+    music.legacy
+    music.singing
+    music.structures
+
+Submodules
+----------
+
+music\.effects module
+---------------------
+
+.. automodule:: music.effects
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+music\.synths module
+--------------------
+
+.. automodule:: music.synths
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+music\.tables module
+--------------------
+
+.. automodule:: music.tables
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+music\.utils module
+-------------------
+
+.. automodule:: music.utils
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: music
+    :members:
+    :undoc-members:
+    :show-inheritance:

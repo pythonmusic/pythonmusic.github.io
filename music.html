@@ -1,0 +1,618 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>music package &#8212; Well the music package name? Yes? 0.1.beta documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1.beta',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="music-package">
+<h1>music package<a class="headerlink" href="#music-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="music.core.html">music.core package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="music.core.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="music.core.html#module-music.core.classes">music.core.classes module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="music.core.html#module-music.core.functions">music.core.functions module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="music.core.html#music-core-synths-module">music.core.synths module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="music.core.html#module-music.core">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="music.legacy.html">music.legacy package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="music.legacy.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="music.legacy.pieces.html">music.legacy.pieces package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="music.legacy.pieces.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="music.legacy.pieces.html#module-music.legacy.pieces.testSong2">music.legacy.pieces.testSong2 module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="music.legacy.pieces.html#module-music.legacy.pieces">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="music.legacy.html#module-music.legacy">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="music.singing.html">music.singing package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="music.singing.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="music.singing.html#module-music.singing.bootstrap">music.singing.bootstrap module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="music.singing.html#module-music.singing.perform">music.singing.perform module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="music.singing.html#module-music.singing">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="music.structures.html">music.structures package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="music.structures.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="music.structures.peals.html">music.structures.peals package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="music.structures.peals.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="music.structures.peals.html#module-music.structures.peals.base">music.structures.peals.base module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="music.structures.peals.html#module-music.structures.peals.peals">music.structures.peals.peals module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="music.structures.peals.html#module-music.structures.peals.plainChanges">music.structures.peals.plainChanges module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="music.structures.peals.html#module-music.structures.peals">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="music.structures.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="music.structures.html#module-music.structures.permutations">music.structures.permutations module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="music.structures.html#module-music.structures.symmetry">music.structures.symmetry module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="music.structures.html#module-music.structures">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-music.effects">
+<span id="music-effects-module"></span><h2>music.effects module<a class="headerlink" href="#module-music.effects" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="music.effects.Chorus">
+<em class="property">class </em><code class="descclassname">music.effects.</code><code class="descname">Chorus</code><a class="headerlink" href="#music.effects.Chorus" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="music.effects.Delays">
+<em class="property">class </em><code class="descclassname">music.effects.</code><code class="descname">Delays</code><a class="headerlink" href="#music.effects.Delays" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="music.effects.LPFilter">
+<em class="property">class </em><code class="descclassname">music.effects.</code><code class="descname">LPFilter</code><a class="headerlink" href="#music.effects.LPFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="music.effects.Notch">
+<em class="property">class </em><code class="descclassname">music.effects.</code><code class="descname">Notch</code><a class="headerlink" href="#music.effects.Notch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="music.effects.Reverb">
+<em class="property">class </em><code class="descclassname">music.effects.</code><code class="descname">Reverb</code><a class="headerlink" href="#music.effects.Reverb" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="music.effects.ScatterLocation">
+<em class="property">class </em><code class="descclassname">music.effects.</code><code class="descname">ScatterLocation</code><a class="headerlink" href="#music.effects.ScatterLocation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="music.effects.ShuffleSound">
+<em class="property">class </em><code class="descclassname">music.effects.</code><code class="descname">ShuffleSound</code><a class="headerlink" href="#music.effects.ShuffleSound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="music.effects.Vocoder">
+<em class="property">class </em><code class="descclassname">music.effects.</code><code class="descname">Vocoder</code><a class="headerlink" href="#music.effects.Vocoder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="music.effects.Wavelet">
+<em class="property">class </em><code class="descclassname">music.effects.</code><code class="descname">Wavelet</code><a class="headerlink" href="#music.effects.Wavelet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-music.synths">
+<span id="music-synths-module"></span><h2>music.synths module<a class="headerlink" href="#module-music.synths" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="music.synths.CanonicalSynth">
+<em class="property">class </em><code class="descclassname">music.synths.</code><code class="descname">CanonicalSynth</code><span class="sig-paren">(</span><em>s</em>, <em>**statevars</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.CanonicalSynth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+<p>Simple synth for sound synthesis with vibrato, tremolo and ADSR.</p>
+<p>All functions but absorbState returns a sonic array.
+You can parametrize the synth in any function call.
+If you want to keep some set of states for specific
+calls, clone your CanonicalSynth or create a new instance.
+You can also pass arbitrary variables to user latter on.</p>
+<dl class="docutils">
+<dt>f <span class="classifier-delimiter">:</span> <span class="classifier">scalar</span></dt>
+<dd>The frequency of the note in Hertz.</dd>
+<dt>d <span class="classifier-delimiter">:</span> <span class="classifier">scalar</span></dt>
+<dd>The duration of the note in seconds.</dd>
+<dt>fv <span class="classifier-delimiter">:</span> <span class="classifier">scalar</span></dt>
+<dd>The frequency of the vibrato oscillations in Hertz.</dd>
+<dt>nu <span class="classifier-delimiter">:</span> <span class="classifier">scalar</span></dt>
+<dd>The maximum deviation of pitch in the vibrato in semitones.</dd>
+<dt>tab <span class="classifier-delimiter">:</span> <span class="classifier">array_like</span></dt>
+<dd>The table with the waveform to synthesize the sound.</dd>
+<dt>tabv <span class="classifier-delimiter">:</span> <span class="classifier">array_like</span></dt>
+<dd>The table with the waveform of the vibrato oscillatory pattern.</dd>
+</dl>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">cs</span> <span class="o">=</span>  <span class="n">CanonicalSynth</span><span class="p">()</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="music.synths.CanonicalSynth.absorbState">
+<code class="descname">absorbState</code><span class="sig-paren">(</span><em>s</em>, <em>**statevars</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.CanonicalSynth.absorbState" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="music.synths.CanonicalSynth.adsrApply">
+<code class="descname">adsrApply</code><span class="sig-paren">(</span><em>audio_vec</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.CanonicalSynth.adsrApply" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="music.synths.CanonicalSynth.adsrSetup">
+<code class="descname">adsrSetup</code><span class="sig-paren">(</span><em>A=100.0</em>, <em>D=40</em>, <em>S=-5.0</em>, <em>R=50</em>, <em>render_note=False</em>, <em>adsr_method='absolute'</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.CanonicalSynth.adsrSetup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="music.synths.CanonicalSynth.rawRender">
+<code class="descname">rawRender</code><span class="sig-paren">(</span><em>**statevars</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.CanonicalSynth.rawRender" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="music.synths.CanonicalSynth.render">
+<code class="descname">render</code><span class="sig-paren">(</span><em>**statevars</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.CanonicalSynth.render" title="Permalink to this definition">¶</a></dt>
+<dd><p>Render a note with f0 Hertz and d seconds</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="music.synths.CanonicalSynth.render2">
+<code class="descname">render2</code><span class="sig-paren">(</span><em>**statevars</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.CanonicalSynth.render2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="music.synths.CanonicalSynth.synthSetup">
+<code class="descname">synthSetup</code><span class="sig-paren">(</span><em>table=None</em>, <em>vibrato_table=None</em>, <em>tremolo_table=None</em>, <em>vibrato_depth=0.1</em>, <em>vibrato_frequency=2.0</em>, <em>tremolo_depth=3.0</em>, <em>tremolo_frequency=0.2</em>, <em>duration=2</em>, <em>fundamental_frequency=220</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.CanonicalSynth.synthSetup" title="Permalink to this definition">¶</a></dt>
+<dd><p>Setup synth engine. ADSR is configured seperately</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="music.synths.CanonicalSynth.tremoloEnvelope">
+<code class="descname">tremoloEnvelope</code><span class="sig-paren">(</span><em>sonic_vector=None</em>, <em>**statevars</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.CanonicalSynth.tremoloEnvelope" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="music.synths.IteratorSynth">
+<em class="property">class </em><code class="descclassname">music.synths.</code><code class="descname">IteratorSynth</code><span class="sig-paren">(</span><em>s</em>, <em>**statevars</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.IteratorSynth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#music.synths.CanonicalSynth" title="music.synths.CanonicalSynth"><code class="xref py py-class docutils literal"><span class="pre">music.synths.CanonicalSynth</span></code></a></p>
+<p>A synth that iterates through arbitrary lists of variables</p>
+<p>Any variable used by the CanonicalSynth can be used.
+Just append the variable name with the token _sequence.</p>
+<p>Example:
+&gt;&gt;&gt; isynth=M.IteratorSynth()
+&gt;&gt;&gt; isynth.fundamental_frequency_sequence = [220, 400, 100, 500]
+&gt;&gt;&gt; isynth.duration_sequence = [2, 1, 1.5]
+&gt;&gt;&gt; isynth.vibrato_frequency_sequence = [3, 6.5, 10]
+&gt;&gt;&gt; sounds=[]
+&gt;&gt;&gt; for i in range(300):</p>
+<blockquote>
+<div>sounds += [isynth.renderIterate(tremolo_frequency=.2*i)]</div></blockquote>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">M</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">M</span><span class="o">.</span><span class="n">H</span><span class="p">(</span><span class="o">*</span><span class="n">sounds</span><span class="p">),</span><span class="s2">&quot;./example.wav&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="music.synths.IteratorSynth.iterateElements">
+<code class="descname">iterateElements</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.IteratorSynth.iterateElements" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="music.synths.IteratorSynth.renderIterate">
+<code class="descname">renderIterate</code><span class="sig-paren">(</span><em>**statevars</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.IteratorSynth.renderIterate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="music.synths.makeGaussianNoise">
+<code class="descclassname">music.synths.</code><code class="descname">makeGaussianNoise</code><span class="sig-paren">(</span><em>self</em>, <em>mean</em>, <em>std</em>, <em>DUR=2</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.makeGaussianNoise" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.synths.sequenceOfStretches">
+<code class="descclassname">music.synths.</code><code class="descname">sequenceOfStretches</code><span class="sig-paren">(</span><em>x, s=[1, 4, 8, 12], fs=44100</em><span class="sig-paren">)</span><a class="headerlink" href="#music.synths.sequenceOfStretches" title="Permalink to this definition">¶</a></dt>
+<dd><p>Makes a sequence of squeezes of the fragment in x.</p>
+<dl class="docutils">
+<dt>x <span class="classifier-delimiter">:</span> <span class="classifier">array_like</span></dt>
+<dd>The samples made to repeat as original or squeezed.
+Assumed to be in the form (channels, samples),
+i.e. x[1][120] is the 120th sample of the second channel.</dd>
+<dt>s <span class="classifier-delimiter">:</span> <span class="classifier">list of numbers</span></dt>
+<dd>Durations in seconds for each repeat of x.</dd>
+</dl>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">asound</span> <span class="o">=</span> <span class="n">H</span><span class="p">(</span><span class="o">*</span><span class="p">[</span><span class="n">V</span><span class="p">(</span><span class="n">f</span><span class="o">=</span><span class="n">i</span><span class="p">,</span> <span class="n">fv</span><span class="o">=</span><span class="n">j</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">([</span><span class="mi">220</span><span class="p">,</span><span class="mi">440</span><span class="p">,</span><span class="mi">330</span><span class="p">,</span><span class="mi">440</span><span class="p">,</span><span class="mi">330</span><span class="p">],</span>
+<span class="go">                                              [.5,15,6,5,30])])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s</span> <span class="o">=</span> <span class="n">sequenceOfStretches</span><span class="p">(</span><span class="n">asound</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s</span> <span class="o">=</span> <span class="n">sequenceOfStretches</span><span class="p">(</span><span class="n">asound</span><span class="p">,</span><span class="n">s</span><span class="o">=</span><span class="p">[</span><span class="o">.</span><span class="mi">2</span><span class="p">,</span><span class="o">.</span><span class="mi">3</span><span class="p">]</span><span class="o">*</span><span class="mi">10</span><span class="o">+</span><span class="p">[</span><span class="o">.</span><span class="mi">1</span><span class="p">,</span><span class="o">.</span><span class="mi">2</span><span class="p">,</span><span class="o">.</span><span class="mi">3</span><span class="p">,</span><span class="o">.</span><span class="mi">4</span><span class="p">]</span><span class="o">*</span><span class="mi">8</span><span class="o">+</span><span class="p">[</span><span class="o">.</span><span class="mi">5</span><span class="p">,</span><span class="mf">1.5</span><span class="p">,</span><span class="o">.</span><span class="mi">5</span><span class="p">,</span><span class="mf">1.</span><span class="p">,</span><span class="mf">5.</span><span class="p">,</span><span class="o">.</span><span class="mi">5</span><span class="p">,</span><span class="o">.</span><span class="mi">25</span><span class="p">,</span><span class="o">.</span><span class="mi">25</span><span class="p">,</span><span class="o">.</span><span class="mi">5</span><span class="p">,</span> <span class="mf">1.</span><span class="p">,</span> <span class="o">.</span><span class="mi">5</span><span class="p">]</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">W</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="s1">&#39;stretches.wav&#39;</span><span class="p">)</span>
+<span class="go">Notes</span>
+<span class="go">-----</span>
+<span class="go">This function is useful to render musical sequences given any material.</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="module-music.tables">
+<span id="music-tables-module"></span><h2>music.tables module<a class="headerlink" href="#module-music.tables" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="music.tables.Basic">
+<em class="property">class </em><code class="descclassname">music.tables.</code><code class="descname">Basic</code><span class="sig-paren">(</span><em>size=2048</em><span class="sig-paren">)</span><a class="headerlink" href="#music.tables.Basic" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+<p>Provide primary tables for lookup</p>
+<p>create sine, triangle, square and saw wave periods
+with size samples.</p>
+<dl class="method">
+<dt id="music.tables.Basic.drawTables">
+<code class="descname">drawTables</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#music.tables.Basic.drawTables" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="music.tables.Basic.makeTables">
+<code class="descname">makeTables</code><span class="sig-paren">(</span><em>size</em><span class="sig-paren">)</span><a class="headerlink" href="#music.tables.Basic.makeTables" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-music.utils">
+<span id="music-utils-module"></span><h2>music.utils module<a class="headerlink" href="#module-music.utils" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="music.utils.CF">
+<code class="descclassname">music.utils.</code><code class="descname">CF</code><span class="sig-paren">(</span><em>s1</em>, <em>s2</em>, <em>dur=500</em>, <em>method='lin'</em>, <em>fs=44100</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.CF" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cross fade in dur milisseconds.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.utils.H">
+<code class="descclassname">music.utils.</code><code class="descname">H</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.H" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.utils.J">
+<code class="descclassname">music.utils.</code><code class="descname">J</code><span class="sig-paren">(</span><em>s1</em>, <em>s2</em>, <em>d=0</em>, <em>nsamples=0</em>, <em>fs=44100</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.J" title="Permalink to this definition">¶</a></dt>
+<dd><p>Mix s1 and s2 placing the beggining of s2 after s1 by dur seconds</p>
+<dl class="docutils">
+<dt>s1 <span class="classifier-delimiter">:</span> <span class="classifier">numeric array</span></dt>
+<dd>A sequence of PCM samples.</dd>
+<dt>s2 <span class="classifier-delimiter">:</span> <span class="classifier">numeric array</span></dt>
+<dd>Another sequence of PCM samples.</dd>
+<dt>d <span class="classifier-delimiter">:</span> <span class="classifier">numeric</span></dt>
+<dd>The offset of the second sound, i.e. the displacement that
+the start of the second sound. (First sound has offset 0).
+Might be negative, denoting to start sound2 <a href="#id2"><span class="problematic" id="id3">|d|</span></a> seconds before s1 ends.</dd>
+</dl>
+<p>if d&lt;0, it should satisfy -d*fs &lt; s1.shape[-1]</p>
+<p>TODO: enhance/recycle <a href="#id4"><span class="problematic" id="id5">J_</span></a> and mix2 or delete them. TTM</p>
+<p>(.functions).mix2 : a better mixer</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.utils.J_">
+<code class="descclassname">music.utils.</code><code class="descname">J_</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.J_" title="Permalink to this definition">¶</a></dt>
+<dd><p>Mix sonic vectors with offsets.</p>
+<p><a href="#id6"><span class="problematic" id="id7">J_</span></a> receives a sequence of sonic vectors,
+each a sequence of PCM samples.
+Or a sequence alternating the sonic vectors
+and their offsets.</p>
+<p>(.functions).mix2 : a better mixer</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.utils.V">
+<code class="descclassname">music.utils.</code><code class="descname">V</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.V" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.utils.amp2Db">
+<code class="descclassname">music.utils.</code><code class="descname">amp2Db</code><span class="sig-paren">(</span><em>amp_difference</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.amp2Db" title="Permalink to this definition">¶</a></dt>
+<dd><p>Receives amplitude proportion, returns decibel difference</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.utils.db2Amp">
+<code class="descclassname">music.utils.</code><code class="descname">db2Amp</code><span class="sig-paren">(</span><em>db_difference</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.db2Amp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Receives difference in decibels, returns amplitude proportion</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.utils.hz2Midi">
+<code class="descclassname">music.utils.</code><code class="descname">hz2Midi</code><span class="sig-paren">(</span><em>hz_val</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.hz2Midi" title="Permalink to this definition">¶</a></dt>
+<dd><p>Receives Herz value and returns midi note value</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.utils.midi2Hz">
+<code class="descclassname">music.utils.</code><code class="descname">midi2Hz</code><span class="sig-paren">(</span><em>midi_val</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.midi2Hz" title="Permalink to this definition">¶</a></dt>
+<dd><p>Receives midi note value and returns corresponding Herz frequency</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.utils.midi2HzInterval">
+<code class="descclassname">music.utils.</code><code class="descname">midi2HzInterval</code><span class="sig-paren">(</span><em>midi_interval</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.midi2HzInterval" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.utils.mix">
+<code class="descclassname">music.utils.</code><code class="descname">mix</code><span class="sig-paren">(</span><em>self</em>, <em>list1</em>, <em>list2</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.mix" title="Permalink to this definition">¶</a></dt>
+<dd><p>(.functions).mix2 : a better mixer</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.utils.mix2">
+<code class="descclassname">music.utils.</code><code class="descname">mix2</code><span class="sig-paren">(</span><em>sonic_vectors</em>, <em>end=False</em>, <em>offset=0</em>, <em>fs=44100</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.mix2" title="Permalink to this definition">¶</a></dt>
+<dd><p>Mix sonic vectors. MALFUNCTION! TTM TODO</p>
+<p>The operation consists in summing sample by sample [1].
+This function helps when the sonic_vectors are not
+of the same size.</p>
+<dl class="docutils">
+<dt>sonic_vectors <span class="classifier-delimiter">:</span> <span class="classifier">list of sonic_arrays</span></dt>
+<dd>The sonic vectors to be summed.</dd>
+<dt>end <span class="classifier-delimiter">:</span> <span class="classifier">boolean</span></dt>
+<dd>If True, sync the final samples.
+If False (default) sync the initial samples.</dd>
+<dt>offset <span class="classifier-delimiter">:</span> <span class="classifier">list of scalars</span></dt>
+<dd>A list of the offsets for each sonic vectors
+in seconds.</dd>
+<dt>fs <span class="classifier-delimiter">:</span> <span class="classifier">integer</span></dt>
+<dd>The sample rate. Only used if offset is supplied.</dd>
+</dl>
+<dl class="docutils">
+<dt>S <span class="classifier-delimiter">:</span> <span class="classifier">ndarray</span></dt>
+<dd>A numpy array where each value is a PCM sample of
+the resulting sound.</dd>
+</dl>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">W</span><span class="p">(</span><span class="n">mix2</span><span class="p">(</span><span class="n">sonic_vectors</span><span class="o">=</span><span class="p">[</span><span class="n">V</span><span class="p">(),</span> <span class="n">N</span><span class="p">()]))</span>  <span class="c1"># writes a WAV file with nodes</span>
+</pre></div>
+</div>
+<p>Cite the following article whenever you use this function.</p>
+<table class="docutils footnote" frame="void" id="id1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[1]</td><td>Fabbri, Renato, et al. “Musical elements in the</td></tr>
+</tbody>
+</table>
+<p>discrete-time representation of sound.” arXiv preprint arXiv:abs/1412.6853 (2017)</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.utils.mixS">
+<code class="descclassname">music.utils.</code><code class="descname">mixS</code><span class="sig-paren">(</span><em>l1</em>, <em>l2=[]</em>, <em>end=False</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.mixS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.utils.normalize">
+<code class="descclassname">music.utils.</code><code class="descname">normalize</code><span class="sig-paren">(</span><em>vector</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.normalize" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.utils.normalizeRows">
+<code class="descclassname">music.utils.</code><code class="descname">normalizeRows</code><span class="sig-paren">(</span><em>vector</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.normalizeRows" title="Permalink to this definition">¶</a></dt>
+<dd><p>Normalize each row of a bidimensional vector to [0,1]</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.utils.normalize_">
+<code class="descclassname">music.utils.</code><code class="descname">normalize_</code><span class="sig-paren">(</span><em>vector</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.normalize_" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.utils.p2f">
+<code class="descclassname">music.utils.</code><code class="descname">p2f</code><span class="sig-paren">(</span><em>f0=220.0, semitones=[0, 7, 7, 4, 7, 0]</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.p2f" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.utils.panTransitions">
+<code class="descclassname">music.utils.</code><code class="descname">panTransitions</code><span class="sig-paren">(</span><em>p=[(1, 1), (1, 0), (0, 1), (1, 1)], d=[2, 2, 2], method=['lin', 'circ', 'exp'], fs=44100, sonic_vector=None</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.panTransitions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Each pan transition i starts and ends amplitude envelope
+of channel c in p[i][c] and p[i+1][c].</p>
+<p>Consider only one of such fades
+to understand the pan transition methods:</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>‘lin’ fades linearly in and out:</dt>
+<dd>x*k_i+y*(1-k_i) 
+or
+s1_i*x_i +s2_i*(1-x_i) = (s1-s2)*x_i + s_2</dd>
+<dt>‘circ’ keeps amplitude one using</dt>
+<dd>cos(x)**2 + sin(y)**2 = 1</dd>
+</dl>
+<p>‘exp’ makes the cross_fade using exponentials.</p>
+</div></blockquote>
+<p>‘exp’ entails linear loudness variation for each channel,
+but total loudness is not preserved because
+final amplitude’s ambit is not preserved.
+‘lin’ and ‘circ’, on the other hand, preserve total loudness
+but does not provide a linear variation of loudness for
+each sound on the cross-fade.</p>
+<p>For now, each channel’s signal are kept from mixing.
+One immediate possibility is to maintain the expected
+tessiture of the sample amplitudes.
+Say p = [.5,1,0,.5] ~ [(1,1),(1,0),(0,1),(1,1)].
+Then pi,pj = .5,1 might be performed as:
+s1 = s1*.5 -&gt; 0
+s2 = s1*.5 -&gt; (s1+s2)*.5
+Or through sinusoids and expotentials</p>
+<p>Make fast and slow fades and parameter transitions
+using weber-fechner and steven’s laws.
+E.g. pitch_trans = [pitch0*X**(i/Y) for i in range(12)]</p>
+<blockquote>
+<div>pitch_trans = [pitch0 + X*i**Y for i in range(12)]</div></blockquote>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.utils.profile">
+<code class="descclassname">music.utils.</code><code class="descname">profile</code><span class="sig-paren">(</span><em>adict</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.profile" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>Should return a dictionary with the following structure:</dt>
+<dd><p class="first">d[‘type’][‘scalar’] should return all the names of scalar variables
+as strings.
+scalar: all names in numeric, string, float, integer, 
+collections: all names in dict, list, set, ndarray</p>
+<p>d[‘analyses’][‘ndarray’] should return a general analysis of the ndarrays,
+including size in seconds of each considering fs.
+mean and mean square values to have an idea of whats there.
+RMS values in different scales and the overal RMS standard deviation 
+on a scale is helpful in grasping disconttinuities.
+The overal RMS mean of a scale is a hint of whether the variable
+is meant to be used (or usable as) PCM samples or parametrization.
+E.g.</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li>Large arrays, i.e. with many elements, are usable as PCM samples.</li>
+</ul>
+<p>If the mean is zero, and they are bound to [-1,1] or to some power
+of 2, specially [-2**15, 2**15-1], it is probably PCM samples
+synthesized or sampled or derivatives.
+If it has more than one or two dimensions where the many samples are,
+it might be a collection of audio samples with the sample size</p>
+<ul class="simple">
+<li>Arrays with an offset (abs(mean) &lt;&lt; 0) and small number of elements</li>
+</ul>
+<p>are good candidates for parametrization.
+They might be used for repetition, yielding a clear rhythm.
+They might also be used to derive more ellaborate patterns,
+such as by using the values of more then one arrays,
+and using them simultaneously, often creating patterns
+because of the different sizes of each array.</p>
+<ul class="simple">
+<li>Values in the order of hundreds and thousands are</li>
+</ul>
+<p>candidates for frequency.
+Values within zero and 150 are candidates for decibels,
+and for absolute pitch or pitch interval through MIDI notes
+and semitones count, respectively.
+If the values are integers of very close to them,
+or have many consecutive values deviating less then
+10, it is more likely to be related to pitches.
+If the consecutive values deviate by tens to about a hundred,
+it is kin to decibels notation.</p>
+</div></blockquote>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.utils.read">
+<code class="descclassname">music.utils.</code><code class="descname">read</code><span class="sig-paren">(</span><em>fname</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.read" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.utils.resolveStereo">
+<code class="descclassname">music.utils.</code><code class="descname">resolveStereo</code><span class="sig-paren">(</span><em>afunction, argdict, stereovars=['sonic_vector']</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.resolveStereo" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.utils.stereo">
+<code class="descclassname">music.utils.</code><code class="descname">stereo</code><span class="sig-paren">(</span><em>sonic_vector</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.stereo" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.utils.write">
+<code class="descclassname">music.utils.</code><code class="descname">write</code><span class="sig-paren">(</span><em>sonic_vector</em>, <em>filename='sound_music_name.wav'</em>, <em>normalize=True</em>, <em>samplerate=44100</em><span class="sig-paren">)</span><a class="headerlink" href="#music.utils.write" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-music">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-music" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Renato fabbri.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/music.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,22 @@
+music\.legacy\.pieces package
+=============================
+
+Submodules
+----------
+
+music\.legacy\.pieces\.testSong2 module
+---------------------------------------
+
+.. automodule:: music.legacy.pieces.testSong2
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: music.legacy.pieces
+    :members:
+    :undoc-members:
+    :show-inheritance:

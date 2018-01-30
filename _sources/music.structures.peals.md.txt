@@ -1,0 +1,38 @@
+music\.structures\.peals package
+================================
+
+Submodules
+----------
+
+music\.structures\.peals\.base module
+-------------------------------------
+
+.. automodule:: music.structures.peals.base
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+music\.structures\.peals\.peals module
+--------------------------------------
+
+.. automodule:: music.structures.peals.peals
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+music\.structures\.peals\.plainChanges module
+---------------------------------------------
+
+.. automodule:: music.structures.peals.plainChanges
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: music.structures.peals
+    :members:
+    :undoc-members:
+    :show-inheritance:

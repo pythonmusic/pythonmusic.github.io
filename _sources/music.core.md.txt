@@ -1,0 +1,38 @@
+music\.core package
+===================
+
+Submodules
+----------
+
+music\.core\.classes module
+---------------------------
+
+.. automodule:: music.core.classes
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+music\.core\.functions module
+-----------------------------
+
+.. automodule:: music.core.functions
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+music\.core\.synths module
+--------------------------
+
+.. automodule:: music.core.synths
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: music.core
+    :members:
+    :undoc-members:
+    :show-inheritance:

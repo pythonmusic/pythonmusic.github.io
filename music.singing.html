@@ -1,0 +1,142 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>music.singing package &#8212; Well the music package name? Yes? 0.1.beta documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1.beta',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="music-singing-package">
+<h1>music.singing package<a class="headerlink" href="#music-singing-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-music.singing.bootstrap">
+<span id="music-singing-bootstrap-module"></span><h2>music.singing.bootstrap module<a class="headerlink" href="#module-music.singing.bootstrap" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="music.singing.bootstrap.getEngine">
+<code class="descclassname">music.singing.bootstrap.</code><code class="descname">getEngine</code><span class="sig-paren">(</span><em>method='http'</em><span class="sig-paren">)</span><a class="headerlink" href="#music.singing.bootstrap.getEngine" title="Permalink to this definition">¶</a></dt>
+<dd><p>pull ecantorix repo for local usage</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="music.singing.bootstrap.makeTestSong">
+<code class="descclassname">music.singing.bootstrap.</code><code class="descname">makeTestSong</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#music.singing.bootstrap.makeTestSong" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-music.singing.perform">
+<span id="music-singing-perform-module"></span><h2>music.singing.perform module<a class="headerlink" href="#module-music.singing.perform" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="music.singing.perform.Notes">
+<em class="property">class </em><code class="descclassname">music.singing.perform.</code><code class="descname">Notes</code><a class="headerlink" href="#music.singing.perform.Notes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+<dl class="method">
+<dt id="music.singing.perform.Notes.convert">
+<code class="descname">convert</code><span class="sig-paren">(</span><em>notes</em>, <em>reference</em><span class="sig-paren">)</span><a class="headerlink" href="#music.singing.perform.Notes.convert" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="music.singing.perform.Notes.makeDict">
+<code class="descname">makeDict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#music.singing.perform.Notes.makeDict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="music.singing.perform.sing">
+<code class="descclassname">music.singing.perform.</code><code class="descname">sing</code><span class="sig-paren">(</span><em>text='Mar-ry had a litt-le lamb'</em>, <em>notes=(4</em>, <em>2</em>, <em>0</em>, <em>2</em>, <em>4</em>, <em>4</em>, <em>4)</em>, <em>durs=(1</em>, <em>1</em>, <em>1</em>, <em>1</em>, <em>1</em>, <em>1</em>, <em>2)</em>, <em>M='4/4'</em>, <em>L='1/4'</em>, <em>Q=120</em>, <em>K='C'</em>, <em>reference=60</em>, <em>lang='en'</em>, <em>transpose=-36</em>, <em>effect=None</em><span class="sig-paren">)</span><a class="headerlink" href="#music.singing.perform.sing" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.singing.perform.translateToAbc">
+<code class="descclassname">music.singing.perform.</code><code class="descname">translateToAbc</code><span class="sig-paren">(</span><em>notes</em>, <em>durs</em>, <em>reference</em><span class="sig-paren">)</span><a class="headerlink" href="#music.singing.perform.translateToAbc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="music.singing.perform.writeAbc">
+<code class="descclassname">music.singing.perform.</code><code class="descname">writeAbc</code><span class="sig-paren">(</span><em>text</em>, <em>notes</em>, <em>durs</em>, <em>M='4/4'</em>, <em>L='1/4'</em>, <em>Q=120</em>, <em>K='C'</em>, <em>reference=60</em><span class="sig-paren">)</span><a class="headerlink" href="#music.singing.perform.writeAbc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-music.singing">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-music.singing" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Renato fabbri.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/music.singing.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
